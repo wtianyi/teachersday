@@ -1,0 +1,37 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+*  {
+	margin: 0px;
+	padding: 0px;
+}
+body  {
+	width: 100%;
+	height: 1000px;
+	background-color: #570043;
+	background-image: url("../images/1-19324.png");
+	background-size: 100% auto;
+	background-clip: border;
+	background-repeat: no-repeat;
+	div.container  {
+		width: 100%;
+		height: 700px;
+		align: center;
+	}
+}
+#disqus  {
+	position: relative;
+	top: 300px;
+	margin: 0 auto;
+	width: 550px;
+	border: 8px solid #000;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	#disqus_thread  {
+		background-color: #ffffff;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 30px;
+	}
+}
