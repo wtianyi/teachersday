@@ -1,0 +1,80 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+*  {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	min-height: 100%;
+	_height:100%;
+}
+
+body  {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	_height:100%;
+	background-color: #570043;
+	background-image: url("../images/1-19324.png");
+	background-size: 100% auto;
+	background-clip: border;
+	background-repeat: no-repeat;
+	div.container  {
+		min-width: 100%;
+		min-height: 100%;
+		align: center;
+	}
+}
+
+
+#disqus  {
+	position: relative;
+	top: 300px;
+	margin:	0 auto;
+	width: 550px;
+	//border: 	8px solid #000;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 13px;
+	background-image: url("../images/pop_box_bg75.png");
+
+	#disqus_thread  {
+		background-color: #ffffff;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 30px;
+	}
+}
+
+#logo_background  {
+	background-color:#570043;
+	filter:Alpha(opacity=85);
+	border-radius:15px;
+	position:absolute;
+	top: 90px;
+	right:30px;
+	max-height:200px;
+	height: 200px;
+	width: 308px;
+	background:rgba(87, 0, 67, 0.85) none repeat scroll 0 0 !important;
+	:hover{
+		background-color:#570043;
+		filter:Alpha(opacity=100);
+		border-radius:15px;
+		max-height:200px;
+		background:rgba(87, 0, 67, 1) none repeat scroll 0 0 !important;}
+#logo  {
+		position:absolute;
+		max-height:200px;
+		max-width: 308px;
+		background: url(../images/SU_logo_gold.png);
+		background-size: 100% auto;
+		img{
+		height: 200px;
+		overflow:hidden;
+		}
+	}
+}
